@@ -14,7 +14,6 @@ const App = () => {
   // Inside this hook, everything will be executed whenever page reloads or any change made in query.
   useEffect(() => {
     getRecipes();
-
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query]);
 

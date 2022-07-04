@@ -13,15 +13,6 @@
   grid-gap: 2rem;
 }
 
-.card {
-  width: 22rem;
-}
-
-.searchbar {
-  width: 60%;
-  display: inline;
-}
-
 .Search {
   align-self: center;
   width: 80%;
@@ -29,30 +20,27 @@
   align-items: center;
   justify-content: center;
 }
-
-.btn {
-  height: 2.3rem;
+.searchbar {
+  width: 60%;
+  display: inline;
+}
+.card {
+  width: 22rem;
 }
 
 .badge {
-  width: 6rem;
+  width: 10rem;
+}
+.btn {
+  height: 2.3rem;
 }
 @media only screen and (max-width: 1050px) {
   .receipe {
-    display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-evenly;
-    grid-gap: 2rem;
   }
 }
 @media only screen and (max-width: 850px) {
   .receipe {
-    display: grid;
     grid-template-columns: auto;
-    justify-content: space-evenly;
-    grid-gap: 2rem;
   }
-}
-.badge {
-  width: 10rem;
 }
