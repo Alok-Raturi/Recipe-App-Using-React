@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 const Recipe = (props) => {
   return (
     <div className="card">
