@@ -1,3 +1,58 @@
+.App {
+  display: flex;
+  background-color: beige;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.receipe {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  grid-gap: 2rem;
+}
+
 .card {
-  width: 18rem;
+  width: 22rem;
+}
+
+.searchbar {
+  width: 60%;
+  display: inline;
+}
+
+.Search {
+  align-self: center;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  height: 2.3rem;
+}
+
+.badge {
+  width: 6rem;
+}
+@media only screen and (max-width: 1050px) {
+  .receipe {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    grid-gap: 2rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .receipe {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    grid-gap: 2rem;
+  }
+}
+.badge {
+  width: 10rem;
 }
